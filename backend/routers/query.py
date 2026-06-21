@@ -3,6 +3,7 @@ Query Router - RAG-powered natural language queries using Groq + ChromaDB
 GET  /api/query/history
 POST /api/query/ask
 """
+
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 from sqlalchemy.orm import Session
