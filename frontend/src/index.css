@@ -1,34 +1,36 @@
 @import "tailwindcss";
 
-@theme {
-  --color-bg-primary: #0a0a0b;
-  --color-bg-secondary: #0f0f10;
-  --color-surface: #111214;
-  --color-surface-raised: #161719;
-  --color-border: #1e1f22;
-  --color-border-hover: #2e2f33;
-  --color-text-primary: #e8e6df;
-  --color-text-secondary: #7a7870;
-  --color-text-muted: #3d3c39;
+@layer base {
+  :root {
+    --color-bg-primary: #0a0a0b;
+    --color-bg-secondary: #0f0f10;
+    --color-surface: #111214;
+    --color-surface-raised: #161719;
+    --color-border: #1e1f22;
+    --color-border-hover: #2e2f33;
+    --color-text-primary: #e8e6df;
+    --color-text-secondary: #7a7870;
+    --color-text-muted: #3d3c39;
 
-  --color-accent-red: #c0392b;
-  --color-accent-red-dim: #7a1f18;
-  --color-accent-amber: #d4590a;
-  --color-accent-teal: #1e6e6a;
-  --color-accent-green: #3a5f3a;
-  --color-white-glyph: #f0ede8;
+    --color-accent-red: #c0392b;
+    --color-accent-red-dim: #7a1f18;
+    --color-accent-amber: #d4590a;
+    --color-accent-teal: #1e6e6a;
+    --color-accent-green: #3a5f3a;
+    --color-white-glyph: #f0ede8;
 
-  --font-display: "Space Mono", "Courier New", monospace;
-  --font-body: "IBM Plex Mono", "Courier Prime", monospace;
-  --font-ui: "IBM Plex Mono", monospace;
+    --font-display: "Space Mono", "Courier New", monospace;
+    --font-body: "IBM Plex Mono", "Courier Prime", monospace;
+    --font-ui: "IBM Plex Mono", monospace;
 
-  /* Landing Page Colors */
-  --color-primary: #bf3a2b;
-  --color-primary-dark: #8a2a20;
-  --color-background-light: #f8f6f6;
-  --color-background-dark: #171212;
-  --color-surface-dark: #251e1d;
-  --color-border-dark: #372b2a;
+    /* Landing Page Colors */
+    --color-primary: #bf3a2b;
+    --color-primary-dark: #8a2a20;
+    --color-background-light: #f8f6f6;
+    --color-background-dark: #171212;
+    --color-surface-dark: #251e1d;
+    --color-border-dark: #372b2a;
+  }
 }
 
 @layer base {
@@ -40,7 +42,6 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
   }
-
 }
 
 /* Custom scrollbar for terminal look */
